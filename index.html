@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="calculator">
-        <div class="io-container">
-            <input class="io" type="text" disabled>
-        </div>
-        <div class="operations-container">  
-            <div class="keys-row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="plus-key special">+</button>
-            </div>
-            <div class="keys-row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="minus-key special">-</button>
-            </div>
-            <div class="keys-row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="multiply-key special">x</button>
-            </div>
-            <div class="keys-row">
-                <button>C</button>
-                <button>0</button>
-                <button class="equals-key special">=</button>
-                <button class="divide-key special">÷</button>
-            </div>
-        </div>
+  <div class="calculator">
+    <input class="io" type="text" disabled />
+    <div class="operations-container">  
+      <div class="keys-row">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="special">+</button>
+      </div>
+      <div class="keys-row">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="special">−</button>
+      </div>
+      <div class="keys-row">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="special">×</button>
+      </div>
+      <div class="keys-row">
+        <button>C</button>
+        <button>0</button>
+        <button>.</button>
+        <button class="special">÷</button>
+      </div>
+      <button class="equals-key special">=</button>
     </div>
-
     <script src="script.js"></script>
+  </div>
 </body>
 </html>
